@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════
-// STORAGE — IndexedDB + localStorage doppio salvataggio
+// STORAGE — IndexedDB + localStorage doppio salvataggio.
 // ═══════════════════════════════════════════════════════
 const DB_NAME="ConsueloHome", DB_STORE="history", DB_VER=1;
 let dbInst=null;
